@@ -25,6 +25,7 @@
   <br><hr><br>
 
   <h2>Edit URL</h2>
+  <i style="font-size:10pt">you will have to clear your browser history for this to work</i>
   <form id="edit">
     <label for="names">Choose a Link:</label>
     <select name="name" id="names" required>
@@ -33,7 +34,7 @@
     <label>New URL</label>
     <input style="margin-top: 10px;" type="text" id="url" name="url" required>
     <br>
-    <input type="submit" value="Submit">
+    <input style="margin-top: 10px;" type="submit" id="edit-submit" name="submit" value="Submit">
   </form>
   <div id="edit-output" style="height:36px;"></div>
 
